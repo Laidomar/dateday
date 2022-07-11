@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h1 id="resultText"></h1>
+    <script>
+      
+      let response = prompt("Would you like to go on a date? Type Yes or No");
+      let outputText = "";
+      
+      if (response=="Yes"){
+        outputText = "I'll pick u up at 12pm wednesday <3";
+      }else if(response=="No"){
+        outputText = "9awedi";
+      }else{
+        outputText = "please type Yes or No!!";
+      }
+      
+      document.getElementById("resultText").innerHTML = outputText;
+    </script>
+  </body>
+</html>
